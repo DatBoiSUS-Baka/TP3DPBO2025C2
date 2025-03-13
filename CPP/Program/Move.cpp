@@ -8,7 +8,10 @@ class Move{
         string name;
         int duration; // In seconds
     public:
-        Move(){}
+        Move(string name, int duration){
+            this->name = name;
+            this->duration = duration;
+        }
 
         // Setter and getter
         string getName(){
@@ -23,6 +26,10 @@ class Move{
         }
         void setDuration(int duration){
             this->duration = duration;
+        }
+
+        virtual void execute(){
+            cout << "Performing " << name << "for " << duration << "seconds";
         }
 
         ~Move(){}
