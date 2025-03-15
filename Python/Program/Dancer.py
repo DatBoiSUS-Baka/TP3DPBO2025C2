@@ -33,6 +33,8 @@ class Dancer:
     def showMoves(self):
         print(f"\n{self.getNameDancer()} has learned:")
         for spin in self.__spinMove:
-            print(f"- {spin.getName()}")
+            print(f"- {spin.getName()} {spin.getDuration()} seconds with {spin.getSpinSpeed()} rpm")
         for step in self.__stepMove:
-            print(f"- {step.getName()}")
+            print(f"- {step.getName()} {step.getDuration()} seconds with {step.getStepIntensity()} intensity")
+        for jump in self.__jumpMove:
+            print(f"- {jump.getName()} {jump.getDuration()} seconds with a height of {jump.getJumpHeight()}")
