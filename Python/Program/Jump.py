@@ -1,4 +1,4 @@
-import BasicMove
+from BasicMove import BasicMove
 
 class Jump(BasicMove):
     def __init__(self, name, duration, difficulty, height):
@@ -7,6 +7,6 @@ class Jump(BasicMove):
     
     def setJumpHeight(self, height):
         self.__jumpHeight = height
-    def getJumpHight(self):
+    def getJumpHeight(self):
         return self.__jumpHeight
     

@@ -1,6 +1,6 @@
-import Spin
-import Step
-import Jump
+from Spin import Spin
+from Step import Step
+from Jump import Jump
 
 class Dancer:
     def __init__(self, nameDancer, age):

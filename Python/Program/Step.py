@@ -1,4 +1,4 @@
-import BasicMove
+from BasicMove import BasicMove
 
 class Step(BasicMove):
     def __init__(self, name, duration, difficulty, intensity):
