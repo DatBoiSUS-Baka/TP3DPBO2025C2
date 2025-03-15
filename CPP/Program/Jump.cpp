@@ -23,3 +23,5 @@ class Jump : public BasicMove{
 
         ~Jump(){}
 };
+
+#endif
