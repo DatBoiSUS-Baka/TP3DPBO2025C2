@@ -1,3 +1,6 @@
+#ifndef DANCER_CPP
+#define DANCER_CPP
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -52,10 +55,11 @@ class Dancer{
     }
 
     void showMoves(){
+        cout << endl;
         cout << this->nameDancer << " has learned: " << endl;
         for (int i = 0; i < spinMove.size(); i++)
         {
-            cout << "- " << spinMove[i].getName() << " "<< spinMove[i].getDuration() << " seconds with " << spinMove[i].getSpinSpeed() << "seconds." << endl;
+            cout << "- " << spinMove[i].getName() << " "<< spinMove[i].getDuration() << " seconds with " << spinMove[i].getSpinSpeed() << " rpm" << endl;
         }
         for (int i = 0; i < stepMove.size(); i++)
         {
@@ -63,12 +67,12 @@ class Dancer{
         }
         for (int i = 0; i < jumpMove.size(); i++)
         {
-            cout << "- " << jumpMove[i].getName() << " " << stepMove[i].getDuration() << " seconds with a height of " << jumpMove[i].getJumpHeight() << endl;
+            cout << "- " << jumpMove[i].getName() << " " << jumpMove[i].getDuration() << " seconds with height of " << jumpMove[i].getJumpHeight() << "cm" << endl;
         }
-        
-        
     }
 
     ~Dancer(){}
 
 };
+
+#endif
