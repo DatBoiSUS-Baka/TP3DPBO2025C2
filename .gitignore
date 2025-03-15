@@ -5,3 +5,8 @@ CPP/Program/Main.o
 CPP/Program/Jump.o
 CPP/Program/Spin.o
 CPP/Program/Step.o
+Python/Program/__pycache__/BasicMove.cpython-312.pyc
+Python/Program/__pycache__/Dancer.cpython-312.pyc
+Python/Program/__pycache__/Jump.cpython-312.pyc
+Python/Program/__pycache__/Spin.cpython-312.pyc
+Python/Program/__pycache__/Step.cpython-312.pyc
