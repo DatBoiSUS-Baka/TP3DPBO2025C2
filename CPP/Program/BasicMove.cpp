@@ -1,3 +1,10 @@
+#ifndef BASICMOVE_CPP
+#define BASICMOVE_CPP
+
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 class BasicMove{
     private:
@@ -35,3 +42,5 @@ class BasicMove{
 
         ~BasicMove(){}
 };
+
+#endif
