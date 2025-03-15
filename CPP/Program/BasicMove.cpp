@@ -1,21 +1,29 @@
-#include "Move.cpp"
 
-class BasicMove : public Move{
+class BasicMove{
     private:
-        string moveType;
+        string name;
+        int duration;
         string difficulty;
     public:
-        BasicMove(string name, int duration, string type, string difficulty) : Move(name, duration){
-            this->moveType = type;
+        BasicMove(string name, int duration, string difficulty){
+            this->name = name;
+            this->duration = duration;
             this->difficulty = difficulty;
         }
 
         // Setter and Getter
-        string getMoveType(){
-            return this->moveType;
+        void setName(string name){
+            this->name = name;
         }
-        void setMoveType(string type){
-            this->moveType = type;
+        string getName(){
+            return this->name;
+        }
+
+        void setDuration(int duration){
+            this->duration = duration;
+        }
+        int getDuration(){
+            return this->duration;
         }
 
         string getDifficulty(){
