@@ -1,4 +1,4 @@
-#include "Move.cpp";
+#include "Move.cpp"
 
 class BasicMove : public Move{
     private:

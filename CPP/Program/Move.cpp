@@ -28,9 +28,5 @@ class Move{
             this->duration = duration;
         }
 
-        virtual void execute(){
-            cout << "Performing " << name << "for " << duration << "seconds";
-        }
-
         ~Move(){}
 };
