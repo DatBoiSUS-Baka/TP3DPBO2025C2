@@ -1,3 +1,5 @@
+#ifndef JUMP_CPP
+#define JUMP_CPP
 #include "BasicMove.cpp"
 
 #include <string>
@@ -21,3 +23,5 @@ class Jump : public BasicMove{
 
         ~Jump(){}
 };
+
+#endif

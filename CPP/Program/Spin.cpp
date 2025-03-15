@@ -1,3 +1,5 @@
+#ifndef SPIN_CPP
+#define SPIN_CPP
 #include <iostream>
 #include <string>
 
@@ -20,3 +22,5 @@ class Spin : public BasicMove{
 
         ~Spin(){}
 };
+
+#endif
