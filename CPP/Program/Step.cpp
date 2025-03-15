@@ -1,6 +1,3 @@
-#ifndef STEP_CPP
-#define STEP_CPP
-
 #include <string>
 #include "BasicMove.cpp"
 using namespace std;
@@ -22,5 +19,3 @@ class Step : public BasicMove{
 
         ~Step(){}
 };
-
-#endif

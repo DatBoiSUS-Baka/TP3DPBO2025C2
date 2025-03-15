@@ -22,5 +22,3 @@ class Spin : public BasicMove{
 
         ~Spin(){}
 };
-
-#endif
