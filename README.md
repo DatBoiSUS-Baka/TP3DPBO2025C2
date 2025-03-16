@@ -3,7 +3,7 @@
 Saya Kasyful Haq Bachariputra dengan NIM 2304820 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # Diagram
-
+![diagram](https://github.com/user-attachments/assets/b51ec187-f255-411e-95f1-860245b50752)
 
 # Penjelasan Program dan Alur
 ## Program
@@ -54,6 +54,7 @@ Lalu, terdapat for loop yang mengiterasi sebanyak n, m, dan k untuk masing-masin
 Terakhir, akan dipanggil method showMoves() untuk menampilkan semua gerakan yang diketahui oleh dancer.
 
 # Dokumentasi CPP
-
+![WhatsApp Image 2025-03-16 at 00 44 33_ad330f8f](https://github.com/user-attachments/assets/c68e39c5-26c2-4bad-85e8-1f10ba0c8d08)
 
 # Dokumentasi Python
+![WhatsApp Image 2025-03-16 at 05 38 09_6301c06e](https://github.com/user-attachments/assets/865df33c-dda7-4d2f-8cb3-ea4c7e10a5e1)
